@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "832418588163",
+    "firebase_url": "https://grapho-8918a.firebaseio.com",
+    "project_id": "grapho-8918a",
+    "storage_bucket": "grapho-8918a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:832418588163:android:afd0ff1407926d9065d036",
+        "android_client_info": {
+          "package_name": "com.example.grapho"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "832418588163-2eha4a3ojq77bl8lnngbj24ru6ddo92k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCU1U6ld1KXT7cAdI8R3e1jj0oQg2Zfrvk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "832418588163-2eha4a3ojq77bl8lnngbj24ru6ddo92k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

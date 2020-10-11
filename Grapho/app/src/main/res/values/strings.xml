@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">GraphO</string>
+    <string name="trav">Graph Traversal</string>
+    <string name="trav1">About GraphO</string>
+    <string name="trav2">Topics are</string>
+    <string name="dfs1">This App contains detailed explaination of Graph Data Structures and Algorithms. It contains short information about topics
+    and Video lectures by me in most esay and digestive way.Here I discussed about Time complexity, Application and solved well known problems using
+    C++. It has videos ranging from Graph basics, DFS,BFS To Advance Concepts like Prims, Krushkal, SCC etc.
+    </string>
+    <string name="dfs">Depth-first search is an algorithm for traversing or searching tree or graph data structures. The algorithm starts at the root node (selecting some arbitrary node as the root node in the case of a graph) and explores as far as possible along each branch before backtracking.
+    Complexity Analysis:
+Time complexity: O(V + E), where V is the number of vertices and E is the number of edges in the graph.
+Space Complexity: O(V).
+Since, an extra visited array is needed of size V.
+</string>
+    <string name="dfs2">
+        This Section contains:\n
+        1. Basics of Graph.\n
+        2. Graph implementation\n
+        3. Depth First Search\n
+        4. Breadth First Traversal\n
+        5. Cycle detection\n
+        6. Topological Sort.\n
+        7. Flood fill algorithm \n
+        8. Rotten Orange.\n
+        9. No of Islands \n
+        10. Kahn Algorithm\n
+
+    </string>
+<string name="trav10">
+    Graph Terminologies
+</string>
+    <string name="base">
+        Graph is a set of pair of vertices and edges. There are various types of Graph like simple,regular,complete etc.
+        This is used in networking, social websites etc. Concepts like walk,path, cycle are important. It is represented in adjacency list or in adjacency matrix
+    </string>
+    <string name="bfs">
+        BFS is a traversing algorithm where you should start traversing from a selected node (source or starting node) and traverse the graph layerwise thus exploring the neighbour nodes (nodes which are directly connected to source node). You must then move towards the next-level neighbour nodes.
+        Time Complexity: O(V+E) where V is number of vertices in the graph and E is number of edges in the graph.
+    </string>
+
+    <string name="cycle"> Run a DFS from every unvisited node. Depth First Traversal can be used to detect a cycle in a Graph. DFS for a connected graph produces a tree. There is a cycle in a graph only if there is a back edge present in the graph. A back edge is an edge that is joining a node to itself (self-loop) or one of its ancestor in the tree produced by DFS.
+To find the back edge to any of its ancestor keep a visited array and if there is a back edge to any visited node then there is a loop and return true.
+    O(V+E).</string>
+
+    <string name="topo">
+        Topological sorting for Directed Acyclic Graph (DAG) is a linear ordering of vertices such that for every directed edge uv, vertex u comes before v in the ordering. Topological Sorting for a graph is not possible if the graph is not a DAG.
+        In topological sorting, we use a temporary stack. We don’t print the vertex immediately, we first recursively call topological sorting for all its adjacent vertices, then push it to a stack. Finally, print contents of stack. Note that a vertex is pushed to stack only when all of its adjacent vertices (and their adjacent vertices and so on) are already in stack.
+        Time complexity O(V).
+    </string>
+</resources>
